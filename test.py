@@ -1,7 +1,9 @@
 # check out json interface
 
 import json
-from urllib.request import urlopen
+# from urllib.request import urlopen
+import requests
+
 
 point = 50962
 connector = 2

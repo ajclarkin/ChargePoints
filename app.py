@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request, redirect, url_for, flash
+import requests
 # from flask_sqlalchemy import SQLAlchemy
 # from sqlalchemy.sql import func
 # from datetime import date
 
 # This next section is required for getting the API data
-import json
-from urllib.request import urlopen
+# import json
+# from urllib.request import urlopen
 
 
 
@@ -19,16 +20,15 @@ from models import *
 
 
 def CheckChargePointStatus(point, connector):
-    url = 'https://map.chargeplacescotland.org/status?bayNo=' + str(point) + '&connectorId=' + str(connector)
-    with urlopen(url) as response:
-        for line in response:
-            ret = json.loads(line)
-            status = ret["status"]
-    
-        if status == "Available":
-            return 1
-        else:
-            return 0
+    baseurl = 'https://map.chargeplacescotland.org/status'
+    payload = {'bayNo' : point, 'connectorId' : connector}
+
+    data = requests.get(baseurl, params=payload).json()
+
+    if data['status'] == "Available":
+        return 1
+    else:
+        return 0
 
 
 
