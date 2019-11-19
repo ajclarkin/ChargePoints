@@ -2,18 +2,24 @@
 
 
 {% block col1 %}
-<h3>My Charge Points</h3>
+<!-- <h3>My Charge Points</h3> -->
 <table class="table table-borderless table-sm">
     <tbody>
 
 
         {% for entry in points %}
 
-            <tr>
+            {% if entry.status %}
+                <tr class='table-success'>
+            {% else %}
+                <tr class='table-danger'>
+            {% endif %}
+
                 <td>{{entry.name}}</td>
-                <td>{{entry.point}}</td>
-                <td>{{entry.connector}}</td>
+                <!-- <td>{{entry.point}}</td>
+                <td>{{entry.connector}}</td> -->
                 <td>{{entry.type}}</td>
+                <!-- <td>{{entry.status}}</td> -->
             </tr>
 
         {% endfor %}
