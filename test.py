@@ -1,8 +1,8 @@
 # check out json interface
 
 import json
-# from urllib.request import urlopen
-import requests
+from urllib.request import urlopen
+
 
 
 point = 50962
