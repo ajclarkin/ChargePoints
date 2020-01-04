@@ -5,7 +5,7 @@ connector = 2
 baseurl = 'https://map.chargeplacescotland.org/status'
 payload = {'bayNo' : point, 'connectorId' : connector}
 
-data = requests.get(baseurl, params=payload).json()
+data = requests.get(baseurl, params=payload, verify=False).json()
 
 print(data['status'])
 
