@@ -16,7 +16,8 @@ class ChargePoints(db.Model):
 
     # This allows us to print the output of a query
     def __repr__(self):
-        return f'{self.id} {self.name} {self.point} {self.connector} {self.type}'
+        #return f'{self.id} {self.name} {self.point} {self.connector} {self.type}'
+        return "{} {} {} {} {}".format(self.id, self.name, self.point, self.connector, self.type)
 
 
 
