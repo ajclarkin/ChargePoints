@@ -1,0 +1,60 @@
+[33mcommit acb912fc81618e6e37705c3fa48ef1e80c65c52b[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Sat Jan 11 13:36:23 2020 +0000
+
+    Added custom css to enlarge font size
+
+[33mcommit 27fe9b450986425017d6530d81c75036ddf9ac31[m
+Merge: 1d5490c 8669927
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Sat Jan 4 13:18:34 2020 +0000
+
+    Added new chargepoints to database
+
+[33mcommit 1d5490c6499a80d811ef55b22e2a9d43d68ad08c[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Sat Jan 4 13:12:05 2020 +0000
+
+    Added new chargepoints to database
+
+[33mcommit 86699270d30c8aa641271b76e1ec2cb51d1f7433[m
+Author: Andrew Clarkin <34194151+ajclarkin@users.noreply.github.com>
+Date:   Wed Dec 4 08:17:48 2019 +0000
+
+    Update README.md
+
+[33mcommit 4f4bb08b8383433028031daa6780fd64a0bb9050[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Wed Dec 4 08:12:14 2019 +0000
+
+    Added fcgi for deployment
+
+[33mcommit 4f3757502e840fce64d8a667cdb6a99c7c2e1c6c[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Thu Nov 21 16:33:04 2019 +0000
+
+    Tidied up
+
+[33mcommit 8a4cc0c37927e0bab521905eaad3f42ebeec7b74[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Tue Nov 19 20:12:42 2019 +0000
+
+    Moved to using Requests for API
+
+[33mcommit 28d1beb80e8b2a9e63d9a63bf7568afb5c81f510[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Tue Nov 19 10:27:17 2019 +0000
+
+    Working list of points - need to add manually to database currently
+
+[33mcommit 4e39464e2f7d4e7c30ac786937376880ffec8df3[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Tue Nov 19 09:17:36 2019 +0000
+
+    Index page lists database
+
+[33mcommit 7f2901bb135fe8d31d3e1611333536486de9d81a[m
+Author: ajclarkin <mail@ajclarkin.co.uk>
+Date:   Tue Nov 19 08:38:34 2019 +0000
+
+    First commit
